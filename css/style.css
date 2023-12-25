@@ -1,0 +1,28 @@
+:rot{
+  --link: rgb(215, 215, 215);
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh; 
+  background-color: var(--bs-black) !important;
+}
+.logo-netflix{
+  position: absolute;
+  top: 0;
+  left: 2rem;
+}
+.nav-item{
+  padding: 0 1rem;
+}
+.nav-link{
+  color: var(--link) !important;
+}
+.nav-link:hover{
+  color: var(--link) !important;
+}
