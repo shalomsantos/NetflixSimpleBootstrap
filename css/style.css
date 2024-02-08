@@ -26,3 +26,9 @@ body{
 .nav-link:hover{
   color: var(--link) !important;
 }
+.navbar-nav > li > a{
+  transition: 250ms;
+}
+.navbar-nav > li > a:hover{
+  color: white !important;
+}
